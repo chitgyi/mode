@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:mode/core/blocs/app.bloc.dart';
 import 'package:mode/core/di/app.di.dart';
 import 'package:mode/core/navigator/back_dispatcher.dart';
@@ -11,9 +12,11 @@ import 'package:provider/provider.dart';
 
 main() {
   registerNavigatorDI();
+  SystemChrome.setSystemUIOverlayStyle(
+      SystemUiOverlayStyle(statusBarColor: Colors.transparent));
   runApp(ModeApp());
 }
-
+q
 class ModeApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
