@@ -6,12 +6,7 @@ import 'package:mode/features/music/presentation/pages/music.detail.dart';
 class MusicPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return WillPopScope(
-      onWillPop: () async {
-        print("pop");
-        return false;
-      },
-      child: Scaffold(
+    return  Scaffold(
         appBar: AppBar(
           titleSpacing: 0.0,
           leading: Padding(
@@ -47,7 +42,7 @@ class MusicPage extends StatelessWidget {
             ),
           ),
         ),
-      ),
+      
     );
   }
 }
