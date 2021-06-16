@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class DiscoverPageContent extends StatelessWidget {
-  const DiscoverPageContent({Key? key}) : super(key: key);
+class MusicPageContent extends StatelessWidget {
+  const MusicPageContent({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
       child: Center(
-        child: const Text("DISCOVER"),
+        child: const Text("MUSIC"),
       ),
     );
   }
