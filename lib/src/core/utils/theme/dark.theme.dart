@@ -5,6 +5,9 @@ import '../constants/text_style.constants.dart';
 final kDarkThemeData = ThemeData(
   brightness: Brightness.dark,
   scaffoldBackgroundColor: AppColors.PrimaryDark,
+  primaryColor: AppColors.PrimaryDark,
+  accentColor: AppColors.Primary,
+  primaryColorDark: AppColors.PrimaryDark,
   bottomNavigationBarTheme: BottomNavigationBarThemeData(
     backgroundColor: AppColors.AccentDark,
     selectedItemColor: AppColors.Selected,

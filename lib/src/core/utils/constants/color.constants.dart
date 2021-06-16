@@ -9,4 +9,5 @@ abstract class AppColors {
   static const InActive = Color(0xFF89DDAA);
   static const Selected = Color(0xFF5BFF0E);
   static const UnSelected = Color(0xFF626262);
+  static const Grey5 = Color(0xFFE0E0E0);
 }
