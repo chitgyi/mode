@@ -24,6 +24,8 @@ dev_dependencies:
   retrofit_generator: any
   build_runner: any
 flutter:
+  assets:
+    - assets/icons/
   fonts:
     - family: ChakraPetch
       fonts:
@@ -38,5 +40,8 @@ flutter:
           weight: 400
         - asset: assets/fonts/ChakraPetch/ChakraPetch-Italic.ttf
           style: italic
+    - family: CustomIcon
+      fonts:
+        - asset: assets/fonts/IconFonts/CustomIcon.ttf
 
   uses-material-design: true

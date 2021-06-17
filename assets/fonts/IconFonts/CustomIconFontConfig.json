@@ -1,0 +1,13 @@
+{
+    "name": "CustomIcon",
+    "icons": {
+        "category": "%25ue303%25uebd0%25ue00f",
+        "music": "%25ue637%25ueee3%25ue006",
+        "discover": "%25ue105%25ue878%25ue0ea",
+        "favorte": "%25ue000%25ue401%25ueb4b%25ue0d2",
+        "account": "%25ue000%25ue463%25uec76%25ue0d4",
+        "search": "%25ue000%25ue361%25ue59b%25ue059",
+        "eye": "%25ue18b%25ue032",
+        "play_now": "%25ue701%25ue0ac%25ue04c"
+    }
+}

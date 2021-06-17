@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import '../view_models/app.view_model.dart';
-import '../views/view_builder.dart';
+
 import '../../../features/categories/presentation/pages/CategoryPageContent.dart';
 import '../../../features/discover/presentation/pages/DiscoverPageContent.dart';
 import '../../../features/favorite/presentation/pages/FavoritePageContent.dart';
 import '../../../features/music/presentation/pages/MusicPageContent.dart';
+import '../view_models/app.view_model.dart';
+import '../views/view_builder.dart';
 
 class IndexPage extends StatelessWidget {
   const IndexPage({Key? key}) : super(key: key);

@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
+import '../constants/strings.constants.dart';
 import '../constants/color.constants.dart';
 import '../constants/text_style.constants.dart';
 
 final kDarkThemeData = ThemeData(
+  fontFamily: Strings.FontFamily,
   brightness: Brightness.dark,
   scaffoldBackgroundColor: AppColors.PrimaryDark,
   primaryColor: AppColors.PrimaryDark,
   accentColor: AppColors.Primary,
   primaryColorDark: AppColors.PrimaryDark,
-  bottomNavigationBarTheme: BottomNavigationBarThemeData(
+  bottomNavigationBarTheme: const BottomNavigationBarThemeData(
     backgroundColor: AppColors.AccentDark,
     selectedItemColor: AppColors.Selected,
     unselectedItemColor: AppColors.UnSelected,
@@ -16,7 +18,7 @@ final kDarkThemeData = ThemeData(
     showSelectedLabels: false,
     showUnselectedLabels: false,
   ),
-  textTheme: TextTheme(
+  textTheme: const TextTheme(
     headline6: TextStyles.H6,
     headline5: TextStyles.H5,
     headline4: TextStyles.H4,
