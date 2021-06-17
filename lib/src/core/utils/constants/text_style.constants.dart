@@ -3,17 +3,17 @@ import 'package:flutter/material.dart';
 abstract class TextStyles {
   static const H6 = const TextStyle(
     fontSize: 10,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.w600,
   );
 
   static const H5 = const TextStyle(
     fontSize: 12,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.w600,
   );
 
   static const H4 = const TextStyle(
     fontSize: 14,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.w600,
   );
 
   static const H3 = const TextStyle(

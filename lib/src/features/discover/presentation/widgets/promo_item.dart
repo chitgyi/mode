@@ -16,7 +16,7 @@ class PromoItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(Dims.k_8),
+      padding: EdgeInsets.all(Dims.k_10),
       decoration: BoxDecoration(
         color: AppColors.Accent,
         borderRadius: BorderRadius.circular(Dims.k_10),

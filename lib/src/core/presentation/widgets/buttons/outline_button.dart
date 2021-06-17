@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../utils/constants/color.constants.dart';
 import '../../../utils/constants/dim.constants.dart';
+import 'package:mode/src/core/utils/extensions/context.extension.dart';
 
 class CustomOutlinedButton extends StatelessWidget {
   const CustomOutlinedButton({
@@ -24,7 +25,10 @@ class CustomOutlinedButton extends StatelessWidget {
         ),
         borderRadius: BorderRadius.circular(Dims.k_14),
       ),
-      child: Text(text),
+      child: Text(
+        text,
+        style: context.textTheme.headline4,
+      ),
     );
   }
 }

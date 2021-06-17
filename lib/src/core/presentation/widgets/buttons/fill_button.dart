@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../../../utils/constants/color.constants.dart';
 import '../../../utils/constants/dim.constants.dart';
 import '../../../utils/constants/styles.constants.dart';
+import 'package:mode/src/core/utils/extensions/context.extension.dart';
 
 class FillButton extends StatelessWidget {
   const FillButton({
@@ -24,7 +25,10 @@ class FillButton extends StatelessWidget {
         boxShadow: kDefaultShadow,
         borderRadius: BorderRadius.circular(Dims.k_14),
       ),
-      child: Text(text),
+      child: Text(
+        text,
+        style: context.textTheme.headline4,
+      ),
     );
   }
 }
