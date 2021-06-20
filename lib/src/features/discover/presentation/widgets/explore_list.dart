@@ -38,7 +38,7 @@ class ExploreItem extends StatelessWidget {
         child: Row(
           children: [
             Container(
-              width: 90,
+              width: 85,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(Dims.k_8),
                 border: Border.all(

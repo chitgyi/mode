@@ -30,7 +30,7 @@ class ArtistItem extends StatelessWidget {
     return Container(
       padding: EdgeInsets.all(Dims.k_10),
       margin: EdgeInsets.only(right: Dims.k_10),
-      width: MediaQuery.of(context).size.width * 0.7,
+      width: MediaQuery.of(context).size.width * 0.8,
       decoration: BoxDecoration(
         color: AppColors.Accent,
         borderRadius: BorderRadius.circular(Dims.k_10),
@@ -38,8 +38,8 @@ class ArtistItem extends StatelessWidget {
       child: Row(
         children: [
           Container(
-            width: 75,
-            height: 75,
+            width: 70,
+            height: 70,
             padding: EdgeInsets.all(Dims.k_2),
             decoration: BoxDecoration(
               shape: BoxShape.circle,
@@ -74,10 +74,17 @@ class ArtistItem extends StatelessWidget {
                 SizedBox(
                   height: Dims.k_8,
                 ),
-                IconWithText(
-                  iconData: Icons.favorite,
-                  text: "1k Likes",
-                ),
+                Row(children: [
+                  IconWithText(
+                    iconData: Icons.favorite,
+                    text: "1k Likes",
+                  ),
+                  Spacer(),
+                  IconWithText(
+                    iconData: Icons.favorite,
+                    text: "100 Songs",
+                  ),
+                ]),
               ],
             ),
           ),
